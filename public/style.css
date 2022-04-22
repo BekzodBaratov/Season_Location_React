@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 300%;
+  box-sizing: border-box;
+  transition: 0.5s ease;
+}
+body {
+  font-family: sans-serif;
+}
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#icon1 {
+  color: rgb(71, 71, 71);
+
+  position: absolute;
+  top: 7%;
+  left: 4%;
+}
+#icon2 {
+  color: rgb(71, 71, 71);
+
+  position: absolute;
+  bottom: 7%;
+  right: 4%;
+}
